@@ -1,0 +1,9 @@
+created a database, need to link the jikan api to the database,
+ host it online and thenn pull requests from it over and over
+ using the pandas data structure
+
+ #use jikan for scraping data for anime and then putting it into the database
+#pandas - for reading and extracting for the database
+#mysql - for the database
+#dear pygui - for making the application
+#find another api for books
