@@ -2,6 +2,7 @@ from random import choice
 import pandas as pd
 import mysql.connector
 
+df = pd.read_sql("jikan_db") #check this i have no fucking clue what im doing
 
 #use jikan for scraping data for anime and then putting it into the database
 #pandas - for reading and extracting for the database
@@ -36,3 +37,4 @@ except mysql.connector.Error as err:
 finally:
     if 'connection' in locals() and connection.is_connected():
         connection.close()
+
